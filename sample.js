@@ -1,13 +1,9 @@
 module.exports = {
 
   prom: function () {
-
-    return new Promise(function (res, rej) {
-
-      rej('hello');
-
+    return new Promise(function (resolve, reject) {
+      reject('hello');
     });
-
   },
 
   run: function () {
