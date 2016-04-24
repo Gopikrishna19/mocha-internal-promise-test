@@ -1,16 +1,30 @@
 {
   "name": "mocha-promise",
   "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "mocha test.js --reporter spec"
-  },
-  "author": "",
-  "license": "ISC",
+  "description": "Test internal promises in mocha",
+  "main": "sample.js",
   "dependencies": {
     "code": "^2.2.0",
     "mocha": "^2.4.5",
     "sinon": "^1.17.3"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/my-js-ventures/mocha-internal-promise-test.git"
+  },
+  "keywords": [
+    "mocha",
+    "internal",
+    "promise",
+    "test"
+  ],
+  "author": "Gopikrishna Sathyamurthy",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/my-js-ventures/mocha-internal-promise-test/issues"
+  },
+  "homepage": "https://github.com/my-js-ventures/mocha-internal-promise-test#readme",
+  "scripts": {
+    "test": "mocha test.js --reporter spec"
   }
 }
